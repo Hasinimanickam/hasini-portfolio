@@ -1,0 +1,792 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasini | AI & ML Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <canvas id="particles-bg"></canvas>
+    <script src="particles.js"></script>
+
+    
+<!-- NAVBAR -->
+<nav class="main-navbar" id="main-navbar">
+    <div class="nav-container">
+
+        <a href="#home" class="nav-logo" aria-label="Go to Home">
+            <span class="logo-bracket">&lt;</span>HM<span class="logo-bracket">/&gt;</span>
+        </a>
+
+        <button
+            class="nav-toggle"
+            id="nav-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-controls="nav-links"
+            aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#journey" class="nav-link">Journey</a>
+            
+        </div>
+
+    </div>
+</nav>
+<!-- END NAVBAR -->
+
+
+
+<section class="hero hero-premium" id="home">
+
+    <!-- LEFT: INTRODUCTION -->
+    <div class="hero-content">
+        <p class="tag hero-eyebrow">
+            <span class="status-dot"></span>
+            AI &amp; DATA SCIENCE STUDENT
+        </p>
+
+        <p class="hero-greeting">Hello, I'm</p>
+
+        <h1 class="hero-name">
+            Hasini<br />
+            <span>Manickam.</span>
+        </h1>
+
+        <h2 class="hero-role">
+            Aspiring <span id="typing-text">Machine Learning Engineer</span>
+            <span class="typing-cursor">|</span>
+        </h2>
+
+        <p class="hero-description">
+            I explore Artificial Intelligence, Machine Learning,
+            and Data Science to build practical projects and
+            turn data into meaningful insights.
+        </p>
+
+        <div class="hero-actions">
+            <a href="#projects" class="button">
+                Explore My Projects ↗
+            </a>
+
+            <a href="assets/resume.pdf"
+               class="button secondary"
+               target="_blank"
+               rel="noopener noreferrer">
+                View Resume ↗
+            </a>
+        </div>
+
+        <div class="hero-socials">
+            <a href="https://github.com/Hasinimanickam"
+               target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+
+            <span class="social-divider">/</span>
+
+            <a href="https://www.linkedin.com/in/hasini-manickam-9ba67b391/"
+               target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+    </div>
+
+    <!-- CENTRE: CIRCULAR PHOTO -->
+    <div class="hero-profile">
+        <div class="profile-orbit">
+            <img
+                src="assets/profile.jpeg"
+                alt="Hasini Manickam"
+                class="profile-photo"
+            />
+        </div>
+    </div>
+
+    
+    <!-- SCROLL INDICATOR -->
+    <a href="#about" class="hero-scroll">
+        <span class="scroll-mouse"></span>
+        SCROLL TO EXPLORE
+    </a>
+
+</section>
+
+    <!-- Animated AI visual -->
+    <div class="hero-visual" aria-label="Animated AI-inspired graphic">
+        <div class="visual-glow"></div>
+
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+
+        <div class="ai-core">
+            <span class="ai-bracket">&lt;</span>
+            <span class="ai-symbol">AI</span>
+            <span class="ai-bracket">/&gt;</span>
+        </div>
+
+        <div class="floating-chip chip-python">
+            <span class="chip-dot"></span> Python
+        </div>
+
+        <div class="floating-chip chip-ml">
+            <span class="chip-dot"></span> Machine Learning
+        </div>
+
+        <div class="floating-chip chip-data">
+            <span class="chip-dot"></span> Data Science
+        </div>
+
+        <div class="visual-caption">
+            <span class="caption-line"></span>
+            LEARN · BUILD · INNOVATE
+        </div>
+    </div>
+
+    <a href="#about" class="hero-scroll" aria-label="Scroll to About section">
+        <span class="scroll-line"></span>
+        SCROLL TO EXPLORE
+    </a>
+
+
+
+<!-- Certifications Section -->
+<section id="certifications" class="certifications">
+  <div class="certifications-container">
+
+    <h2 class="section-title">My Certifications</h2>
+    <p class="section-subtitle">
+      Certifications and courses I've completed
+    </p>
+
+    <div class="certificate-grid">
+
+      <!-- 1. AWS -->
+      <div class="certificate-card">
+        <img
+          src="assets/aws-cloud.png"
+          alt="AWS Cloud Practitioner Essentials certificate"
+          class="certificate-image"
+          loading="lazy"
+        />
+        <h3>AWS Cloud Practitioner Essentials</h3>
+        <p>Amazon Web Services (AWS)</p>
+      </div>
+
+      <!-- 2. GUVI -->
+      <div class="certificate-card">
+        <img
+          src="assets/guvi-webinar.png"
+          alt="GUVI Machine Learning webinar certificate"
+          class="certificate-image"
+          loading="lazy"
+        />
+        <h3>Machine Learning Webinar</h3>
+        <p>GUVI</p>
+      </div>
+
+      <!-- 3. Infosys Java -->
+      <div class="certificate-card">
+        <img
+          src="assets/infosys-java.png"
+          alt="Infosys Java Tools certificate"
+          class="certificate-image"
+          loading="lazy"
+        />
+        <h3>Java Tools</h3>
+        <p>Infosys Springboard</p>
+      </div>
+
+      <!-- 4. Infosys Python -->
+      <div class="certificate-card">
+        <img
+          src="assets/infosys-python.png"
+          alt="Infosys Basics of Python certificate"
+          class="certificate-image"
+          loading="lazy"
+        />
+        <h3>Basics of Python</h3>
+        <p>Infosys Springboard</p>
+      </div>
+
+      <!-- 5. Udemy -->
+      <div class="certificate-card">
+        <img
+          src="assets/udemy-ai-guide.png"
+          alt="The Complete AI Guide certificate"
+          class="certificate-image"
+          loading="lazy"
+        />
+        <h3>The Complete AI Guide: Learn ChatGPT, Gen AI and More</h3>
+        <p>Udemy</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <main>
+        
+<!-- PREMIUM ABOUT SECTION -->
+<section class="section about-section" id="about">
+    <p class="tag">01 / ABOUT ME</p>
+
+    <h2>Curious mind. <span>Practical builder.</span></h2>
+
+    <div class="about-layout">
+        <div class="about-main">
+            <p class="about-lead">
+                Hi, I'm Hasini — an AI & Data Science student
+                passionate about exploring intelligent technologies.
+            </p>
+
+            <p>
+                I'm building my foundation in Python, Machine Learning,
+                and Data Science through hands-on projects. I enjoy
+                learning new tools, working with data, and turning
+                ideas into practical applications.
+            </p>
+
+            <p>
+                My goal is to grow into a Machine Learning Engineer
+                and contribute to projects that solve real-world
+                problems using AI.
+            </p>
+
+            <a class="button about-cta" href="#projects">
+                Explore My Work <span aria-hidden="true">↗</span>
+            </a>
+        </div>
+
+        <div class="about-highlights">
+            <article class="about-highlight">
+                <span class="highlight-mark">01</span>
+                <div>
+                    <h3>Learn by Building</h3>
+                    <p>Developing practical projects while strengthening my fundamentals.</p>
+                </div>
+            </article>
+
+            <article class="about-highlight">
+                <span class="highlight-mark">02</span>
+                <div>
+                    <h3>AI & Data Science</h3>
+                    <p>Exploring machine learning, data analysis and AI-powered tools.</p>
+                </div>
+            </article>
+
+            <article class="about-highlight">
+                <span class="highlight-mark">03</span>
+                <div>
+                    <h3>Continuous Growth</h3>
+                    <p>Improving my technical knowledge one project at a time.</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+
+<section class="section skills-section" id="skills">
+  <div class="skills-intro">
+    <p class="section-kicker">02 / MY TOOLKIT</p>
+    <h2>Skills I'm growing<span class="accent">.</span></h2>
+    <p class="skills-description">
+      Technologies and concepts I'm learning and applying through
+      projects in AI, data science, and software development.
+    </p>
+  </div>
+
+  <div class="skills-grid">
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <span class="skill-icon">⌨️</span>
+        <span class="skill-category">Programming</span>
+      </div>
+      <h3>Programming Languages</h3>
+      <p>Building programming fundamentals and problem-solving skills.</p>
+      <div class="skill-tags">
+        <span>Python</span>
+        <span>Java</span>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <span class="skill-icon">📊</span>
+        <span class="skill-category">Data</span>
+      </div>
+      <h3>Data Analytics</h3>
+      <p>Working with data, organizing information, and identifying patterns.</p>
+      <div class="skill-tags">
+        <span>Excel</span>
+        <span>SQL</span>
+        <span>Data Cleaning</span>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <span class="skill-icon">🤖</span>
+        <span class="skill-category">Artificial Intelligence</span>
+      </div>
+      <h3>Machine Learning</h3>
+      <p>Exploring predictive models and practical machine learning concepts.</p>
+      <div class="skill-tags">
+        <span>ML Basics</span>
+        <span>Prediction</span>
+        <span>Model Evaluation</span>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <span class="skill-icon">🧠</span>
+        <span class="skill-category">AI</span>
+      </div>
+      <h3>AI Concepts</h3>
+      <p>Learning how AI techniques can solve real-world problems.</p>
+      <div class="skill-tags">
+        <span>AI Fundamentals</span>
+        <span>Generative AI</span>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <span class="skill-icon">📈</span>
+        <span class="skill-category">Visualization</span>
+      </div>
+      <h3>Data Visualization</h3>
+      <p>Presenting information in a clear and understandable format.</p>
+      <div class="skill-tags">
+        <span>Charts</span>
+        <span>Exploratory Analysis</span>
+      </div>
+    </article>
+
+    <article class="skill-card">
+      <div class="skill-card-top">
+        <span class="skill-icon">🛠️</span>
+        <span class="skill-category">Development</span>
+      </div>
+      <h3>Tools & Technologies</h3>
+      <p>Using development tools to build, manage, and share projects.</p>
+      <div class="skill-tags">
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>Jupyter Notebook</span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+
+<!-- PREMIUM PROJECT SHOWCASE -->
+<section id="projects" class="section projects-section">
+    <p class="tag">03 / SELECTED WORK</p>
+
+    <h2>Projects with a <span>purpose.</span></h2>
+
+    <p class="projects-intro">
+        Practical projects where I explore AI, Machine Learning,
+        Data Science and real-world problem solving.
+    </p>
+
+    <div class="cards">
+
+        <!-- PROJECT 1 -->
+        <article class="card project-card">
+            <div class="project-card-top">
+                <p class="number">PROJECT 01</p>
+                <span class="project-icon">⌂</span>
+            </div>
+
+
+            <h3>House Price Prediction</h3>
+
+            <p>
+                A machine learning project using housing data to
+                predict house prices and explore model performance.
+            </p>
+
+            <div class="project-tech">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>Linear Regression</span>
+                <span>Matplotlib</span>
+            </div>
+            <details class="case-study">
+    <summary>View case study <span>＋</span></summary>
+    <div class="case-study-content">
+        <h4>Problem</h4>
+        <p>Understand how property-related features can be used to estimate house prices.</p>
+        <h4>Approach</h4>
+        <p>Explore the dataset, prepare features and apply a machine learning model.</p>
+        <h4>What I learned</h4>
+        <p>Data preparation, model training and prediction workflows.</p>
+    </div>
+</details>
+
+            <div class="project-actions">
+                <a href=https://github.com/Hasinimanickam/House-Price-Prediction-
+                   target="_blank" rel="noopener noreferrer">
+                    GitHub Repository ↗
+                </a>
+            </div>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="card project-card">
+            <div class="project-card-top">
+                <p class="number">PROJECT 02</p>
+                <span class="project-icon">▥</span>
+            </div>
+            
+
+            <h3>Retail Sales & Inventory Copilot</h3>
+
+            <p>
+                A Streamlit dashboard for retail sales analytics,
+                inventory alerts and AI-assisted business questions.
+            </p>
+
+            <div class="project-tech">
+                <span>Python</span>
+                <span>Streamlit</span>
+                <span>Pandas</span>
+                <span>Gemini AI</span>
+            </div>
+
+            <details class="case-study">
+    <summary>View case study <span>＋</span></summary>
+    <div class="case-study-content">
+        <h4>Problem</h4>
+        <p>Retail data can be difficult to review for sales patterns and inventory needs.</p>
+        <h4>Approach</h4>
+        <p>Designed around sales analysis, inventory insights and AI-assisted business questions.</p>
+        <h4>Technologies</h4>
+        <p>Python, Streamlit, Pandas and Gemini AI.</p>
+    </div>
+</details>
+
+            <div class="project-actions">
+                <a href=https://github.com/Hasinimanickam/Retail-Sales-Inventory-Copilot
+                   target="_blank" rel="noopener noreferrer">
+                    GitHub Repository ↗
+                </a>
+            </div>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="card project-card">
+            <div class="project-card-top">
+                <p class="number">PROJECT 03</p>
+                <span class="project-icon">♥</span>
+            </div>
+
+
+            <h3>Heart Rate AI</h3>
+
+            <p>
+                An educational project exploring heart-rate data
+                analysis and unusual patterns using machine learning.
+                It is not a medical diagnostic tool.
+            </p>
+
+            <div class="project-tech">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>Pandas</span>
+                <span>Matplotlib</span>
+            </div>
+
+            <details class="case-study">
+    <summary>View case study <span>＋</span></summary>
+    <div class="case-study-content">
+        <h4>Problem</h4>
+        <p>Explore heart-rate data and identify patterns for educational analysis.</p>
+        <h4>Approach</h4>
+        <p>Use data handling and visualization techniques to examine the readings.</p>
+        <h4>Important note</h4>
+        <p>This is an educational project, not a medical diagnostic tool.</p>
+    </div>
+</details>
+
+            <div class="project-actions">
+                <a href=https://github.com/Hasinimanickam/heart-rate-prediction
+                   target="_blank" rel="noopener noreferrer">
+                    GitHub Repository ↗
+                </a>
+            </div>
+        </article>
+
+        <!-- PROJECT 4 -->
+        <article class="card project-card">
+            <div class="project-card-top">
+                <p class="number">PROJECT 04</p>
+                <span class="project-icon">🚨</span>
+            </div>
+
+
+
+            <h3>Smart Emergency Safety</h3>
+
+            <p>
+                A Flask web application featuring SOS support,
+                emergency contacts, location features and access
+                to emergency services.
+            </p>
+
+            <div class="project-tech">
+                <span>Python</span>
+                <span>Flask</span>
+                <span>SQLite</span>
+                <span>JavaScript</span>
+            </div>
+
+            <details class="case-study">
+    <summary>View case study <span>＋</span></summary>
+    <div class="case-study-content">
+        <h4>Problem</h4>
+        <p>Make emergency support features easier to access through a web application.</p>
+        <h4>Approach</h4>
+        <p>Build around SOS support, emergency contacts and emergency-service access.</p>
+        <h4>Technologies</h4>
+        <p>Python, Flask, SQLite and JavaScript.</p>
+    </div>
+</details>
+
+            <div class="project-actions">
+                <a href="https://github.com/Hasinimanickam/smart-emergency-safety"
+                   target="_blank" rel="noopener noreferrer">
+                    GitHub Repository ↗
+                </a>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- JOURNEY TIMELINE: add after the existing Projects section -->
+<section class="extra-section" id="journey">
+    <p class="tag">MY PROGRESS</p>
+    <h2>Learning <span>Journey.</span></h2>
+    <p class="extra-intro">
+        A journey of learning, building projects and growing my technical skills.
+    </p>
+
+    <div class="journey-list">
+        <article class="journey-item">
+            <span class="journey-dot"></span>
+            <div>
+                <p class="journey-label">FOUNDATION</p>
+                <h3>Programming Fundamentals</h3>
+                <p>Building my understanding of Python, Java and problem-solving.</p>
+            </div>
+        </article>
+
+        <article class="journey-item">
+            <span class="journey-dot"></span>
+            <div>
+                <p class="journey-label">LEARNING</p>
+                <h3>AI & Data Science</h3>
+                <p>Exploring data analysis, machine learning and related tools.</p>
+            </div>
+        </article>
+
+        <article class="journey-item">
+            <span class="journey-dot"></span>
+            <div>
+                <p class="journey-label">HANDS-ON PRACTICE</p>
+                <h3>Building Projects</h3>
+                <p>Applying what I learn through practical project development.</p>
+            </div>
+        </article>
+
+        <article class="journey-item">
+            <span class="journey-dot"></span>
+            <div>
+                <p class="journey-label">NEXT GOAL</p>
+                <h3>Grow in Machine Learning</h3>
+                <p>Strengthening my skills and seeking relevant learning opportunities.</p>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- SKILLS EXPLORER -->
+<section class="extra-section" id="skills-explorer">
+    <p class="tag">EXPLORE MY SKILLS</p>
+    <h2>Skills in <span>Action.</span></h2>
+    <p class="extra-intro">
+        Select a skill to explore how it connects to my learning and projects.
+    </p>
+
+    <div class="explorer-buttons">
+        <button class="explorer-button active" data-skill="python">Python</button>
+        <button class="explorer-button" data-skill="java">Java</button>
+        <button class="explorer-button" data-skill="data">Data Analysis</button>
+        <button class="explorer-button" data-skill="ml">Machine Learning</button>
+        <button class="explorer-button" data-skill="web">Web Development</button>
+    </div>
+
+    <article class="explorer-result" aria-live="polite">
+        <p class="tag" id="explorer-category">PROGRAMMING</p>
+        <h3 id="explorer-title">Python</h3>
+        <p id="explorer-description">
+            Used for programming, data handling and machine learning practice.
+        </p>
+        <p class="explorer-note" id="explorer-project">
+            Related learning: House Price Prediction and data-focused projects.
+        </p>
+    </article>
+</section>
+
+<!-- INTERACTIVE PORTFOLIO TERMINAL -->
+<section class="extra-section" id="terminal">
+    <p class="tag">A LITTLE INTERACTIVE CORNER</p>
+    <h2>Explore via <span>Terminal.</span></h2>
+    <p class="extra-intro">
+        Type a command to learn more about my portfolio.
+    </p>
+
+    <div class="terminal-box">
+        <div class="terminal-top">
+            <span class="terminal-indicator"></span>
+            <span class="terminal-indicator"></span>
+            <span class="terminal-indicator"></span>
+            <span class="terminal-title">hasini@portfolio:~</span>
+        </div>
+
+        <div class="terminal-output" id="terminal-output" aria-live="polite">
+            <p>Welcome! Type <strong>help</strong> to see available commands.</p>
+        </div>
+
+        <form id="terminal-form" class="terminal-form">
+            <label for="terminal-input" class="terminal-prompt">visitor@portfolio:~$</label>
+            <input
+               id="terminal-input"            
+               type="text"
+               placeholder="Type help..."
+               autocomplete="off"
+               aria-label="Portfolio terminal command"
+            />
+            <button type="submit">Run</button>
+        </form>
+    </div>
+    <p class="terminal-hint">Try: help · about · skills · projects · contact</p>
+</section>
+
+
+<!-- PORTFOLIO ASSISTANT -->
+<section class="extra-section" id="portfolio-assistant">
+    <p class="tag">QUICK INTRODUCTION</p>
+    <h2>Ask My <span>Portfolio.</span></h2>
+    <p class="extra-intro">
+        Choose a question to learn more about my work and interests.
+    </p>
+
+    <div class="assistant-card">
+        <div class="assistant-heading">
+            <div class="assistant-avatar">H</div>
+            <div>
+                <h3>Portfolio Assistant</h3>
+                <p>Answers about my portfolio</p>
+            </div>
+        </div>
+
+        <div class="assistant-questions">
+            <button type="button" class="assistant-question"
+                data-answer="about">
+                Tell me about Hasini
+            </button>
+            <button type="button" class="assistant-question"
+                data-answer="projects">
+                What projects has she built?
+            </button>
+            <button type="button" class="assistant-question"
+                data-answer="skills">
+                What skills is she learning?
+            </button>
+            <button type="button" class="assistant-question"
+                data-answer="goal">
+                What is her career goal?
+            </button>
+        </div>
+
+        <div class="assistant-answer" id="assistant-answer" aria-live="polite">
+            Select a question to see an answer.
+        </div>
+    </div>
+</section>
+
+<!-- LIVE PORTFOLIO STATUS -->
+<section class="extra-section status-section" id="portfolio-status">
+    <p class="tag">CURRENT FOCUS</p>
+    <h2>What I'm <span>Working On.</span></h2>
+
+    <div class="status-grid">
+        <article class="status-card">
+            <span class="status-live-dot"></span>
+            <p class="status-label">LEARNING</p>
+            <h3>AI & Data Science</h3>
+            <p>Developing technical knowledge through study and practice.</p>
+        </article>
+
+        <article class="status-card">
+            <span class="status-live-dot"></span>
+            <p class="status-label">BUILDING</p>
+            <h3>Practical Projects</h3>
+            <p>Improving my project work and documenting what I learn.</p>
+        </article>
+
+        <article class="status-card">
+            <span class="status-live-dot"></span>
+            <p class="status-label">NEXT STEP</p>
+            <h3>Career Development</h3>
+            <p>Working towards my goal of becoming a Machine Learning Engineer.</p>
+        </article>
+    </div>
+    <p class="status-disclaimer">
+        These cards describe my current focus; they are not an automated live activity feed.
+    </p>
+</section>
+
+
+
+
+                <!-- PROJECT DETAILS POPUP -->
+<div class="project-modal" id="project-modal" aria-hidden="true">
+    <div class="modal-content">
+        <button class="modal-close" id="modal-close"
+                aria-label="Close project details">&times;</button>
+        <p class="tag">PROJECT DETAILS</p>
+        <h2 id="modal-title">Project Name</h2>
+        <p id="modal-description"></p>
+        <div id="modal-tech" class="project-tech"></div>
+    </div>
+</div>
+
+
+    </main>
+
+    <footer>
+        © 2026 Hasini Manickam · Built with curiosity.
+    </footer>
+
+</body>
+</html>
